@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description"
+        content="R^2-Gaussian: 3DGS-based framework for efficient CT reconstruction">
+  <meta name="keywords" content="3D Gaussian Splatting, 3D Reconstruction, CT Reconstruction, Tomographic Reconstruction">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>R^2-Gaussian: Rectifying Radiative Gaussian Splatting for Tomographic Reconstruction</title>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+    gtag('config', 'G-PYVRSFMDRL');
+  </script>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+  <link rel="icon" href="./static/images/favicon.svg">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+</head>
+<body>
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title"><p>R<span class="math inline"><sup>2</sup></span>-Gaussian: Rectifying
+            Radiative Gaussian Splatting for Tomographic Reconstruction</p></h1>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">
+              <a href="https://ruyi-zha.github.io">Ruyi Zha</a><sup>1</sup>,</span>
+            <span class="author-block">
+              <a href="https://scholar.google.com/citations?user=BD7Hce0AAAAJ&hl=en">Tao Jun Lin</a><sup>1</sup>,</span>
+            <span class="author-block">
+              <a href="https://caiyuanhao1998.github.io/">Yuanhao Cai</a><sup>2</sup>,
+            </span>
+            <span class="author-block">
+              <a href="https://www.linkedin.com/in/jiwen-cao-87a541235/?original_referer=https%3A%2F%2Fwww%2Egoogle%2Ecom%2F&originalSubdomain=au">Jiwen Cao</a><sup>1</sup>,
+            </span>
+            <span class="author-block">
+              <a href="https://sites.google.com/view/yanhaozhang/home">Yanhao Zhang</a><sup>3</sup>,
+            </span>
+            <span class="author-block">
+              <a href="https://scholar.google.com/citations?user=Mq89JAcAAAAJ&hl=en">Hongdong Li</a><sup>1</sup>,
+            </span>
+          </div>
+
+          <div class="is-size-5 publication-authors">
+            <span class="author-block"><sup>1</sup>Australian National University,</span>
+            <span class="author-block"><sup>2</sup>Johns Hopkins University,</span>
+            <span class="author-block"><sup>3</sup>University of Technology
+              Sydney</span>
+          </div>
+
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <!-- PDF Link. -->
+              <span class="link-block">
+                <a href="https://arxiv.org/abs/2405.20693v1"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Paper</span>
+                </a>
+              </span>
+              <span class="link-block">
+                <a href="https://arxiv.org/abs/2405.20693v1"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span>
+              <!-- Code Link. -->
+              <span class="link-block">
+                <a href="https://github.com/Ruyi-Zha/r2_gaussian"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-github"></i>
+                  </span>
+                  <span>Code</span>
+                  </a>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+    <div class="container is-max-desktop">
+      <!-- Cover. -->
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <div class="publication-pipeline">
+            <img src="static/images/cover.png" alt="cover">
+            <h2 class="subtitle has-text-centered">
+              <span class="r2gaussian"><p>R<span class="math inline"><sup>2</sup></span>-Gaussian is a 3DGS-based framework for fast CT reconstruction.
+            </h2>
+          </div>
+        </div>
+      </div>
+    </div>
+</section>
+
+<section class="section">
+    <div class="container is-max-desktop">
+      <!-- Abstract. -->
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Abstract</h2>
+          <div class="content has-text-justified">
+            <p>
+              3D Gaussian splatting (3DGS) has shown promising results in
+              image rendering and surface reconstruction. However, its
+              potential in volumetric reconstruction tasks, such as X-ray
+              computed tomography, remains under-explored. 
+              This paper introduces R<span class="math inline"><sup>2</sup></span>-Gaussian, 
+              the first 3DGS-based framework for sparse-view 
+              tomographic reconstruction. By carefully deriving X-ray rasterization
+              functions, we discover a previously unknown <b>integration bias</b>
+              in the standard 3DGS formulation, which hampers accurate volume 
+              retrieval. To address this issue, we propose a novel rectification 
+              technique via refactoring the projection from 3D to 2D Gaussians. Our 
+              new method presents three key innovations: (1) introducing tailored 
+              Gaussian kernels, (2) extending rasterization to X-ray imaging, and (3) 
+              developing a CUDA-based differentiable voxelizer. Extensive experiments 
+              demonstrate that our method outperforms state-of-the-art approaches 
+              by 0.93 dB in PSNR and 0.014 in SSIM. Crucially, it delivers 
+              high-quality results in 3 minutes, which is 12x faster than 
+              NeRF-based methods and on par with traditional algorithms. The 
+              superior performance and rapid convergence of our method highlight 
+              its practical value.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+</section>
+
+<section class="section">
+    <div class="container is-max-desktop">
+      <!-- Paper pipeline. -->
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Pipeline</h2>
+          <div class="publication-pipeline">
+            <img src="static/images/pipeline.png" alt="pipeline">
+          </div>
+        </div>
+      </div>
+    </div>
+</section>
+
+
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Results. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Qualitative Results</h2>
+        <div class="results">
+          <h2 class="subtitle has-text-centered">
+            <span class="r2gaussian">Human Organs
+          </h2>
+          <video poster="" id="human_organ" autoplay controls muted loop playsinline height="100%">
+            <source src="static/videos/human_organ.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+        <div class="results">
+          <h2 class="subtitle has-text-centered">
+            <span class="r2gaussian">Animals and Plants
+          </h2>
+          <video poster="" id="animals_and_plants" autoplay controls muted loop playsinline height="100%">
+            <source src="static/videos/animals_and_plants.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+        <div class="results">
+          <h2 class="subtitle has-text-centered">
+            <span class="r2gaussian">Artificial Objects
+          </h2>
+          <video poster="" id="artifical_objects" autoplay controls muted loop playsinline height="100%">
+            <source src="static/videos/artifical_objects.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <pre><code>@misc{zha2024r2gaussian,
+      title={R$^2$-Gaussian: Rectifying Radiative Gaussian Splatting for Tomographic Reconstruction}, 
+      author={Ruyi Zha and Tao Jun Lin and Yuanhao Cai and Jiwen Cao and Yanhao Zhang and Hongdong Li},
+      year={2024},
+      eprint={2405.20693},
+      archivePrefix={arXiv},
+      primaryClass={eess.IV}
+}
+</code></pre>
+  </div>
+</section>
+
+
+<footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+          <p>
+            This website is licensed under a <a rel="license"
+                                                href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+          <p>
+            This means you are free to borrow the <a
+              href="https://github.com/nerfies/nerfies.github.io">source code</a> of this website,
+            we just ask that you link back to this page in the footer.
+            Please remember to remove the analytics code included in the header of the website which
+            you do not want on your website.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
