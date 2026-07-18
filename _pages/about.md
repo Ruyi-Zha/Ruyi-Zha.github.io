@@ -17,42 +17,170 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. Suspendisse condimentum, libero vel tempus mattis, risus risus vulputate libero, elementum fermentum mi neque vel nisl. Maecenas facilisis maximus dignissim. Curabitur mattis vulputate dui, tincidunt varius libero luctus eu. Mauris mauris nulla, scelerisque eget massa id, tincidunt congue felis. Sed convallis tempor ipsum rhoncus viverra. Pellentesque nulla orci, accumsan volutpat fringilla vitae, maximus sit amet tortor. Aliquam ultricies odio ut volutpat scelerisque. Donec nisl nisl, porttitor vitae pharetra quis, fringilla sed mi. Fusce pretium dolor ut aliquam consequat. Cras volutpat, tellus accumsan mattis molestie, nisl lacus tempus massa, nec malesuada tortor leo vel quam. Aliquam vel ex consectetur, vehicula leo nec, efficitur eros. Donec convallis non urna quis feugiat.
+I am a Research Fellow in the Faculty of Information Technology at Monash University, working with Prof. [Zongyuan Ge](https://research.monash.edu/en/persons/zongyuan-ge/). I recently completed my PhD at the Australian National University in mid-2026 under the supervision of Prof. [Hongdong Li](https://users.cecs.anu.edu.au/~hongdong/). My research spans a broad range of topics in artificial intelligence and computer vision, including 3D vision, medical imaging, AI for Science, and robotics.
 
-My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
+Beyond research, I am an enthusiastic photographer, especially of wildlife and landscapes. I also enjoy sports such as hiking, bouldering, fishing, and kayaking. Follow my [RedNote](https://www.xiaohongshu.com/user/profile/5ae538b7e8ac2b7d44598e47) and [Instagram](https://www.instagram.com/ruyi_anu/) for beautiful photos.
 
 
 # 🔥 News
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2026.07*: Moved to Melbourne to start my Research Fellowship at Monash University.
+- *2026.06*: One paper accepted to ECCV 2026.
+- *2026.04*: Passed my PhD oral examination and submitted my thesis.
+
+# 📖 Education
+- *2021.04 - Present*, Doctor of Philosophy in Engineering and Computer Science, Australian National University, Australia.
+- *2018.07 - 2020.07*, Bachelor of Engineering (First Class Honours), ANU-NPU joint 2+2 program, Australian National University, Australia.
+- *2016.09 - 2018.07*, Bachelor of Engineering, Northwestern Polytechnical University, China.
+
+# 💻 Work Experience
+- *2026.07 - Present*, Faculty of Information Technology, Monash University, Research Fellow.
+- *2025.01 - 2025.07*, International Machine Learning, Amazon, Research Intern.
+- *2022.07 - 2023.04*, XR Vision Labs, Tencent, Research Intern.
+
 
 # 📝 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ECCV 2026</div><img src='images/paper/xpos3r.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
+[XPos3R: Cross-Modal Transformer for Intraoperative 2D/3D Registration](TBD)
 
-**Kaiming He**, Xiangyu Zhang, Shaoqing Ren, Jian Sun
+Shiyan Su\*, **Ruyi Zha**\*, Hongdong Li, Xuelian Cheng, Zongyuan Ge
 
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+*The 19th European Conference on Computer Vision (ECCV) 2026*
+
+[**arXiv TBD**](TBD)<strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong> 
+
+- We propose a DUSt3R-like framework for intraoperative 2D/3D registration.
 </div>
 </div>
 
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2026</div><img src='images/paper/diffnr.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[DiffNR: Diffusion-Enhanced Neural Representation Optimization for Sparse-View 3D Tomographic Reconstruction](https://arxiv.org/abs/2604.21518)
+
+Shiyan Su\*, **Ruyi Zha**\*, Danli Shi, Hongdong Li, Xuelian Cheng
+
+*The 40th Annual AAAI Conference on Artificial Intelligence (AAAI) 2026*
+
+[**arXiv**](https://arxiv.org/abs/2604.21518), [**Code**](https://github.com/ooonesevennn/DiffNR)<strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong> 
+
+- We use diffusion models to improve neural representation learning for CT reconstruction.
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TMI 2026</div><img src='images/paper/3dgsmr.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Three-Dimensional MRI Reconstruction with Gaussian Representations: Tackling the Undersampling Problem](https://arxiv.org/abs/2502.06510)
+
+Tengya Peng, **Ruyi Zha**, Zhen Li, Xiaofeng Liu, Qing Zou
+
+*Transactions on Medical Imaging (TMI) 2026*
+
+[**arXiv**](https://arxiv.org/abs/2502.06510)<strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong> 
+
+- We extend the idea of 3DGS to MRI reconstruction.
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">3DV 2026</div><img src='images/paper/xlrm.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[X-LRM: X-ray Large Reconstruction Model for Extremely Sparse-View Computed Tomography Recovery in One Second](https://arxiv.org/abs/2503.06382)
+
+Guofeng Zhang\*, **Ruyi Zha**\*, Hao He, Yixun Liang, Alan Yuille, Hongdong Li, Yuanhao Cai
+
+*International Conference on 3D Vision (3DV) 2026*
+
+[**arXiv**](https://arxiv.org/abs/2503.06382)<strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong> 
+
+- We propose a feedforward method for sparse-view CT reconstruction.
+</div>
+</div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IPMI 2025 (Oral)</div><img src='images/paper/4drgs.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[4DRGS: 4D Radiative Gaussian Splatting for Efficient 3D Vessel Reconstruction from Sparse-View Dynamic DSA Images](https://arxiv.org/abs/2412.12919)
+
+Zhentao Liu\*, **Ruyi Zha**\*, Huangxuan Zhao, Hongdong Li, Zhiming Cui
+
+*Information Processing in Medical Imaging (IPMI) 2025*
+
+[**arXiv**](https://arxiv.org/abs/2412.12919), [**Code**](https://github.com/ShanghaiTech-IMPACT/4DRGS), [**Project**](https://shanghaitech-impact.github.io/4DRGS/)<strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong> 
+
+- We extend R$^2$-Gaussian to digital subtraction angiography.
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICCV 2025</div><img src='images/paper/x2_gaussian.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[X$^2$-Gaussian: 4D Radiative Gaussian Splatting for Continuous-time Tomographic Reconstruction](https://arxiv.org/abs/2503.21779)
+
+Weihao Yu, Yuanhao Cai, **Ruyi Zha**, Zhiwen Fan, Chenxin Li, Yixuan Yuan
+
+*International Conference on Computer Vision (ICCV) 2025*
+
+[**arXiv**](https://arxiv.org/abs/2503.21779), [**Code**](https://github.com/yuyouxixi/x2-gaussian), [**Project**](https://x2-gaussian.github.io/)<strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong> 
+
+- We extend R$^2$-Gaussian to 4D CT reconstruction.
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2024</div><img src='images/paper/r2_gaussian.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[R$^2$-Gaussian: Rectifying Radiative Gaussian Splatting for Tomographic Reconstruction](https://arxiv.org/abs/2405.20693)
+
+**Ruyi Zha**, Tao Jun Lin, Yuanhao Cai, Jiwen Cao, Yanhao Zhang, Hongdong Li
+
+*The 38th Annual Conference on Neural Information Processing Systems (NeurIPS) 2024*
+
+[**arXiv**](https://arxiv.org/abs/2405.20693), [**Code**](https://github.com/Ruyi-Zha/r2_gaussian)<strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong> 
+
+- We present the first 3DGS-like framework for CT reconstruction.
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">MICCAI 2023 (Oral)</div><img src='images/paper/endosurf.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[EndoSurf: Neural Surface Reconstruction of Deformable Tissues with Stereo Endoscope Videos](https://arxiv.org/abs/2307.11307)
+
+**Ruyi Zha**\*, Xuelian Cheng\*, Hongdong Li, Mehrtash Harandi, Zongyuan Ge
+
+*International Conference on Medical Image Computing and Computer-Assisted Intervention (MICCAI) 2023 (Oral)*
+
+[**arXiv**](https://arxiv.org/abs/2307.11307), [**Code**](https://github.com/Ruyi-Zha/endosurf) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong> 
+
+
+
+- We present a NeRF-based method for recovering deformable tissues from endoscopic videos.
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">MICCAI 2022 (Oral)</div><img src='images/paper/naf.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[NAF: Neural Attenuation Fields for Sparse-View CBCT Reconstruction](https://arxiv.org/abs/2209.14540)
+
+**Ruyi Zha**, Yanhao Zhang, Hongdong Li
+
+*International Conference on Medical Image Computing and Computer-Assisted Intervention (MICCAI) 2022 (Oral)*
+
+[**arXiv**](https://arxiv.org/abs/2209.14540), [**Code**](https://github.com/ruyi-zha/naf_cbct) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong> 
+
+- We present a NeRF-like framework for CT reconstruction.
+</div>
+</div>
+
 
 # 🎖 Honors and Awards
-- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-
-# 📖 Educations
-- *2019.06 - 2022.04 (now)*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2015.09 - 2019.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-
-# 💬 Invited Talks
-- *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
-
-# 💻 Internships
-- *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
+- *2021*, Australian Government Research Training Program International Scholarship.
+- *2019*, ANU Summer Research Scholarship.
+- *2016*, China National Scholarship.

@@ -31,6 +31,9 @@
       {% if author.email %}
         <li><a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i> Email</a></li>
       {% endif %}
+      {% if author.cv %}
+        <li><a href="{{ author.cv | relative_url }}"><i class="fas fa-fw fa-file-pdf" aria-hidden="true"></i> CV</a></li>
+      {% endif %}
       {% if author.keybase %}
         <li><a href="https://keybase.io/{{ author.keybase }}"><i class="fas fa-fw fa-key" aria-hidden="true"></i> Keybase</a></li>
       {% endif %}
@@ -94,6 +97,9 @@
       {% if author.weibo %}
         <li><a href="https://www.weibo.com/{{ author.weibo }}"><i class="fab fa-fw fa-weibo" aria-hidden="true"></i> Weibo</a></li>
       {% endif %}
+      {% if author.rednote %}
+        <li><a href="{{ author.rednote }}"><img src="{{ '/images/rednote.png' | relative_url }}" alt="" style="height:1em;width:1.28em;vertical-align:-0.15em;object-fit:contain;" aria-hidden="true"> RedNote</a></li>
+      {% endif %}
       {% if author.flickr %}
         <li><a href="https://www.flickr.com/{{ author.flickr }}"><i class="fab fa-fw fa-flickr" aria-hidden="true"></i> Flickr</a></li>
       {% endif %}
@@ -125,6 +131,9 @@
       {% endif %}
       {% if author.email %}
         <a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i></a>
+      {% endif %}
+      {% if author.cv %}
+        <a href="{{ author.cv | relative_url }}"><i class="fas fa-fw fa-file-pdf" aria-hidden="true"></i></a>
       {% endif %}
       {% if author.keybase %}
         <a href="https://keybase.io/{{ author.keybase }}"><i class="fas fa-fw fa-key" aria-hidden="true"></i></a>
@@ -188,6 +197,9 @@
       {% endif %}
       {% if author.weibo %}
         <a href="https://www.weibo.com/{{ author.weibo }}"><i class="fab fa-fw fa-weibo" aria-hidden="true"></i></a>
+      {% endif %}
+      {% if author.rednote %}
+        <a href="{{ author.rednote }}"><img src="{{ '/images/rednote.png' | relative_url }}" alt="RedNote" style="height:1em;width:1.28em;vertical-align:-0.15em;object-fit:contain;"></a>
       {% endif %}
       {% if author.flickr %}
         <a href="https://www.flickr.com/{{ author.flickr }}"><i class="fab fa-fw fa-flickr" aria-hidden="true"></i></a>

@@ -6,9 +6,9 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "Lorem ipsum"
-description              : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. "
-repository               : "RayeRen/acad-homepage.github.io"
+title                    : "Ruyi Zha"
+description              : ""
+repository               : "Ruyi-Zha/Ruyi-Zha.github.io"
 google_scholar_stats_use_cdn : true
 
 # google analytics
@@ -21,15 +21,16 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 
 # Site Author
 author:
-  name             : "Lorem ipsum"
-  avatar           : "images/android-chrome-512x512.png"
-  bio              : "Lorem ipsum College"
-  location         : "Beijing, China"
-  employer         :
+  name             : "Ruyi Zha"
+  avatar           : "images/potrait.jpg"
+  bio              : "Researcher in 3D vision"
+  location         : "Melbourne, Australia"
+  employer         : "Monash University"
   pubmed           : 
-  googlescholar    : "https://scholar.google.com/citations?user=YOUR_GOOGLE_SCHOLAR_ID"
-  email            : "Lorem@ipsum.com"
-  researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
+  googlescholar    : "https://scholar.google.com/citations?user=_5W6W7oAAAAJ&hl=en"
+  email            : "ruyi.zha@monash.edu"
+  cv               : "misc/cv.pdf" # path to CV PDF, relative to site root
+  researchgate     : "https://www.researchgate.net/profile/Ruyi-Zha?ev=hdr_xprf" # e.g., "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
   codepen          :
@@ -37,15 +38,15 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : # e.g., "github username"
+  github           : "Ruyi-Zha" # e.g., "github username"
   google_plus      :
   keybase          :
-  instagram        :
+  instagram        : "ruyi_anu"
   impactstory      : # e.g., "https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : # e.g., "linkedin username"
-  dblp             : # e.g., "https://dblp.org/pid/xx/xxxx.html"
-  orcid            : # e.g., "https://orcid.org/xxxx"
+  linkedin         : "ruyi-zha-208a17223" # e.g., "linkedin username"
+  dblp             : "https://dblp.org/pid/280/0677.html" # e.g., "https://dblp.org/pid/xx/xxxx.html"
+  orcid            : "https://orcid.org/0009-0005-0410-1807" # e.g., "https://orcid.org/xxxx"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
@@ -54,6 +55,7 @@ author:
   twitter          : 
   vine             :
   weibo            :
+  rednote          : https://www.xiaohongshu.com/user/profile/5ae538b7e8ac2b7d44598e47 # e.g., "https://www.xiaohongshu.com/user/profile/xxxxxxxx"
   xing             :
   youtube          :
   wikipedia        :
@@ -136,7 +138,7 @@ sass:
 
 # Outputting
 permalink: /:categories/:title/
-timezone: Asia/Shanghai # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Australia/Sydney # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins
