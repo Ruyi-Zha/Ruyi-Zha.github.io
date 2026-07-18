@@ -29,7 +29,6 @@ author:
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=_5W6W7oAAAAJ&hl=en"
   email            : "ruyi.zha@monash.edu"
-  cv               : "misc/cv.pdf" # path to CV PDF, relative to site root
   researchgate     : "https://www.researchgate.net/profile/Ruyi-Zha?ev=hdr_xprf" # e.g., "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :

@@ -56,6 +56,22 @@ Shiyan Su\*, **Ruyi Zha**\*, Hongdong Li, Xuelian Cheng, Zongyuan Ge
 </div>
 </div>
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2026</div><img src='images/paper/cvpr2026.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Towards Realistic and Consistent Orbital Video Generation via 3D Foundation Priors](https://arxiv.org/abs/2604.12309)
+
+Rong Wang, **Ruyi Zha**, Ziang Cheng, Jiayu Yang, Pulak Purkait, Hongdong Li
+
+*The IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2026*
+
+[**arXiv**](https://arxiv.org/abs/2604.12309)<strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong> 
+
+- We leverage shape priors from 3D foundation model to improve video generation.
+
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2026</div><img src='images/paper/diffnr.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -97,7 +113,7 @@ Guofeng Zhang\*, **Ruyi Zha**\*, Hao He, Yixun Liang, Alan Yuille, Hongdong Li, 
 
 [**arXiv**](https://arxiv.org/abs/2503.06382)<strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong> 
 
-- We propose a feedforward method for sparse-view CT reconstruction.
+- We propose a feedforward NeRF-like method for sparse-view CT reconstruction.
 </div>
 </div>
 
