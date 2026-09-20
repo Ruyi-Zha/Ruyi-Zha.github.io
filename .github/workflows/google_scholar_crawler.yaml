@@ -1,9 +1,8 @@
 name: Get Citation Data
 
-on: 
- page_build: 
- schedule:
-  - cron:  '0 8 * * *'
+# Citation updates run only when started manually from the Actions tab.
+on:
+  workflow_dispatch:
 
 jobs:
   build:
