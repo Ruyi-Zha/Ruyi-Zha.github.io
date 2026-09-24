@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am a Research Fellow in the Faculty of Information Technology at Monash University, working with Prof. [Zongyuan Ge](https://research.monash.edu/en/persons/zongyuan-ge/). I recently completed my PhD at the Australian National University in mid-2026 under the supervision of Prof. [Hongdong Li](https://users.cecs.anu.edu.au/~hongdong/). My research spans a broad range of topics in artificial intelligence and computer vision, including 3D vision, medical imaging, AI for Science, and robotics.
+I am a Research Fellow in the Faculty of Information Technology at Monash University, working with Prof. [Zongyuan Ge](https://research.monash.edu/en/persons/zongyuan-ge/) and Prof. [Patrick Kwan](https://research.monash.edu/en/persons/patrick-kwan/). I recently completed my PhD at the Australian National University in mid-2026 under the supervision of Prof. [Hongdong Li](https://users.cecs.anu.edu.au/~hongdong/). My research spans a broad range of topics in artificial intelligence and computer vision, including 3D vision, medical imaging, AI for Science, and robotics.
 
 Beyond research, I am an enthusiastic photographer, especially of wildlife and landscapes. I also enjoy sports such as hiking, bouldering, fishing, and kayaking. Follow my [RedNote](https://www.xiaohongshu.com/user/profile/5ae538b7e8ac2b7d44598e47) and [Instagram](https://www.instagram.com/ruyi_anu/) for beautiful photos.
 
@@ -44,15 +44,30 @@ Beyond research, I am an enthusiastic photographer, especially of wildlife and l
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ECCV 2026</div><img src='images/paper/xpos3r.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[XPos3R: Cross-Modal Transformer for Intraoperative 2D/3D Registration](TBD)
+[XPos3R: Cross-Modal Transformer for Intraoperative 2D/3D Registration](https://arxiv.org/abs/2609.10733v1)
 
 Shiyan Su\*, **Ruyi Zha**\*, Hongdong Li, Xuelian Cheng, Zongyuan Ge
 
 *The 19th European Conference on Computer Vision (ECCV) 2026*
 
-[**arXiv TBD**](TBD)<strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong> 
+[**arXiv**](https://arxiv.org/abs/2609.10733v1)<strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong> 
 
 - We propose a DUSt3R-like framework for intraoperative 2D/3D registration.
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">SIGGRAPH ASIA 2026</div><img src='images/paper/animallift.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[AnimalLift: Reconstructing Animatable 3D Animals from a Single Image by Learning Canonical Shape, Texture, and Fur Maps](https://arxiv.org/abs/2609.09513)
+
+Chunyi Sun, **Ruyi Zha**, Weijian Deng, Junlin Han, Dylan Campbell, Stephen Gould
+
+*SIGGRAPH ASIA 2026*
+
+[**arXiv**](https://arxiv.org/abs/2609.09513), [**Code**](https://github.com/Chuny1/AnimalLift), [**Data**](https://huggingface.co/datasets/Chunyi99/AnimalLift)<strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong> 
+
+- AnimalLift reconstructs animation-ready 3D animals from a single image.
 </div>
 </div>
 
